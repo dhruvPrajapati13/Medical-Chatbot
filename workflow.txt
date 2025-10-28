@@ -1,0 +1,17 @@
+#backend component -
+Book -> Extract All Docs -> Chunks -> Embedding Model -> Different Vector Embeddings
+-> Build Semantic Index -> Knowledge Base (Pinecone)
+
+#Frontend
+User -> Query -> Query Emdeddings -> Goes to KB -> Gives Ranked Results
+-> LLM -> Answer to User
+
+#requirements.txt
+sentence transformers - because we are using open source embedding model
+
+You can create project structure using template.py file - it will create all files and folders you needed in 1 code
+
+#setup.py -
+You want to install your project locally (e.g. pip install -e .)
+You plan to share or deploy your project as a library or package
+Means this project has been setuped as my local package
