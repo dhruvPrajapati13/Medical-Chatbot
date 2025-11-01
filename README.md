@@ -2,20 +2,15 @@
 
 # How to run?
 ### STEPS:
-
-Clone the repository
-
-```bash
-Project repo: https://github.com/
 ```
 ### STEP 01- Create a conda environment after opening the repository
 
 ```bash
-conda create -n medibot python=3.10 -y
+conda create -n medicalbot python=3.10 -y
 ```
 
 ```bash
-conda activate medibot
+conda activate medicalbot
 ```
 
 
@@ -29,7 +24,7 @@ pip install -r requirements.txt
 
 ```ini
 PINECONE_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
-OPENAI_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+GOOGLE_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 ```
 
 
@@ -54,6 +49,6 @@ open up localhost:
 - Python
 - LangChain
 - Flask
-- GPT
+- Gemini
 - Pinecone
 
