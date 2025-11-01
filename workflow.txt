@@ -15,3 +15,8 @@ You can create project structure using template.py file - it will create all fil
 You want to install your project locally (e.g. pip install -e .)
 You plan to share or deploy your project as a library or package
 Means this project has been setuped as my local package
+
+
+1st Execute store_index file to create pinecone Index
+
+Now, Flask to create endpoint of app

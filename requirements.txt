@@ -10,6 +10,5 @@ langchain_openai
 langchain_experimental
 langchain_huggingface
 google-generativeai 
-langchain 
 langchain-google-genai
 langchain-core
